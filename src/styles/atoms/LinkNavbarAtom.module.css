@@ -1,0 +1,9 @@
+.linkNavbar {
+  text-decoration: none;
+  color: var(--color-text-muted);
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: var(--color-logo)
+  }
+}

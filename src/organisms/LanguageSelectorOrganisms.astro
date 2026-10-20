@@ -1,0 +1,18 @@
+---
+import styles from '@/styles/organisms/LanguageSelectorOrganism.module.css'
+import WorldIcon from '@/icons/WorldIcon.astro'
+---
+<select class={styles.languageSelector} name="language" id="language" aria-label="Idioma">
+  <button class={styles.trigger}>
+    <WorldIcon />
+    <selectedcontent class={styles.selected}></selectedcontent>
+  </button>
+  <option value="es" class={styles.optionLanguage}>
+    <span class={styles.code}>ES</span>
+    <span class={styles.name}>Español</span>
+  </option>
+  <option value="en" class={styles.optionLanguage}>
+    <span class={styles.code}>EN</span>
+    <span class={styles.name}>English</span>
+  </option>
+</select>

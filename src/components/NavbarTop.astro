@@ -1,0 +1,14 @@
+---
+import LogoAtom from "@/atoms/LogoAtom.astro";
+import MenuCentral from "@/organisms/MenuCentral.Organism.astro";
+import MenuEnd from "@/organisms/MenuEndOrfanisms.astro";
+import styles from "@/styles/components/NavbarTop.module.css";
+---
+
+<nav class={styles.navbarTop}>
+  <div class={styles.container}>
+    <LogoAtom />
+    <MenuCentral />
+    <MenuEnd />
+  </div>
+</nav>

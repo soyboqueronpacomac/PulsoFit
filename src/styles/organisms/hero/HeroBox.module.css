@@ -1,0 +1,12 @@
+.heroBox {
+  background: #0B0C0F;
+  background: linear-gradient(310deg, rgba(11, 12, 15, 0.85) 15%, rgba(200, 243, 29, 0.5) 60%), url('/img/gyn.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+.boxHeader {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 1rem;
+  color: var(--color-on-logo);
+  p {
+    font-size: .875rem;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,22 @@
+---
+import LogoAtom from '@/atoms/LogoAtom.astro';
+import styles from '@styles/components/FooterEnd.module.css'
+const year = new Date().getFullYear();
+
+---
+<footer class={styles.footerEnd}>
+  <div class={styles.container}>
+    <LogoAtom />
+    <small>
+      <span>&copy; {year} PulsoFit</span>
+      <span> · </span>
+      <span>Aviso legal</span>
+      <span> · </span>
+      <span>Privacidad</span>
+      <span> · </span>
+      <span>Cookies</span>
+      <span> · </span>
+      <span>Trabaja con nosotros</span>
+    </small>
+  </div>
+</footer>

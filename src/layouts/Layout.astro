@@ -1,0 +1,27 @@
+---
+import '@styles/global.css'
+import NavbarTop from '@/components/NavbarTop.astro';
+import FooterEnd from '@/components/FooterEnd.astro';
+
+interface Props {
+  title: string;
+}
+const { title } = Astro.props;
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>PulsoFit - {title}</title>
+	</head>
+	<body>
+    <NavbarTop />
+		<main>
+			<slot />
+		</main>
+    <FooterEnd />
+	</body>
+</html>

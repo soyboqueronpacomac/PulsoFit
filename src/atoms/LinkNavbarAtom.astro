@@ -1,0 +1,13 @@
+---
+import styles from '@styles/atoms/LinkNavbarAtom.module.css'
+
+interface Props {
+  href: string
+}
+
+const { href } = Astro.props
+---
+
+<a href={href} class={styles.linkNavbar}>
+  <slot />
+</a>

@@ -1,0 +1,14 @@
+.footerEnd{
+  grid-area: footer;
+  border-top: 1px solid var(--color-border);
+  width: 100%;
+  .container {
+    width: 90%;
+    max-width: 75rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 6rem;
+  }
+}

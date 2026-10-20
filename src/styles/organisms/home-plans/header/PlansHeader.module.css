@@ -1,0 +1,24 @@
+.plansHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  h3 {
+    font-size: .8125rem;
+    color: var(--color-logo);
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+    color: var(--color-text);
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.125rem;
+    color: var(--color-text-muted);
+    font-weight: 300;
+  }
+}
